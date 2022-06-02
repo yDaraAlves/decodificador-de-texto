@@ -1,0 +1,243 @@
+
+*{
+	font-family: "Inter" sans-serif;
+	font-weight: 400;
+	/*font-size: 23px;*/
+	line-height: 150%;
+}
+
+/* Folha de Estilo*/
+
+/*Imagens*/
+
+.img
+{
+	width:31.09px ;
+	height: 48px;
+	left: 44px;
+
+	padding-left: 3px;
+	padding-bottom: 50px;
+}
+
+/*Corpo*/
+
+body{
+	background: rgb(240,248,255);
+	
+}
+
+textarea
+{
+	/*Ocultar marcação da caixa*/
+	resize:none;
+	/*border-radius: 10px;*/
+}
+
+
+/*Classes*/
+
+.main{
+	display: flex;
+	margin-left: 80px;
+	margin-bottom: 50px;
+
+}
+.input-text
+{
+	/*Ocultar marcação da caixa*/
+	resize:none;
+
+	/*RemoverBorda*/
+	border: 0 none;
+	outline: 0;
+	box-shadow: 0,0,0,0;
+
+	background: rgb(240,248,255);
+
+	margin-bottom: 67px;
+
+	font-size: 23px;
+}
+
+.texto{
+	position: absolute ;
+	top: 0;
+	
+	font-size: 28px;
+
+	padding-top: 5px;
+	padding-left: 125px;
+	color: #7a89b9;
+	
+}
+
+.label
+{
+	color:#703570 ;	
+}
+
+
+
+/*Id*/
+
+#menu2
+{
+	padding: auto;
+	border: auto;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+
+#mensagem
+{ 
+	position: relative;
+	
+	margin-left: 90px;
+	margin-bottom: 20px;
+	top: 0%;
+
+	border-radius: 15px;
+	border-color: #7a89b9;
+	
+	background-image: url("img.png");
+	background-repeat: no-repeat;
+	
+    background-position:50px 70px;
+
+	font-size: 18px;
+	font-family: "Inter", sans-serif;
+
+	text-align: center;
+	vertical-align: text-top;
+	background-size: 70%;
+
+	
+}
+
+
+/*Botoes*/
+
+#botoes{
+	display: flex;
+	margin-top: 20px;
+	flex-direction: row;
+}
+
+.btn1
+{
+
+     width: 50%;
+     margin-right: 2%;
+     height: 67px;
+     background-color: rgb(114, 132, 187);
+     margin-top: 25px;
+	 border-radius: 20px;
+	 border: none;
+	 
+
+	font-weight: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 19px;
+	text-align: center;
+	color: rgb(253, 255, 255);
+	
+}
+
+.btn2
+{
+
+     width: 50%;
+     margin-right: 2%;
+     height: 67px;
+     background-color: rgb(180, 183, 194);
+     margin-top: 25px;
+	 border-radius: 20px;
+	 border: none;
+	
+	font-weight: 50;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 19px;
+	text-align: center;
+	color: rgb(48, 62, 105)
+	
+}
+
+.btn3
+{
+	 width: 200px;
+     height: 67px;
+     background-color: rgb(114, 132, 187);
+	 border-radius: 18px;
+	 border: none;
+
+	margin-left: 200px;
+
+	margin-left: 26%;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: bold;
+
+	text-align: center;
+	color: rgb(253, 255, 255);
+}
+
+.btn2:hover
+{
+	background: rgb(120, 128, 146);
+}
+.btn1:hover
+{
+	background:rgb(87, 98, 133) ;   
+
+}
+
+.btn3:hover
+{
+	background:rgb(211, 217, 235) ;   
+
+}
+
+
+
+/*Media*/
+
+@media screen and (max-width: 480px)  {
+	
+	 .texto, .label{
+		width: auto;
+	}
+
+	.input-text{
+		width: auto;
+	}
+	
+	.main{
+		display: inline-block;
+	}
+
+	#mensagem
+	{
+		margin-top: 25px;
+		width: 50%;
+		
+	}
+
+	.btn1,.btn2{
+		width: auto;
+	}
+	.btn3{
+		width: 50%;
+	}
+
+	.menu2{
+		position: relative;
+	}
+
+}

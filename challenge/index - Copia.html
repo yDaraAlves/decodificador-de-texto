@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">	
+	<title>Challenge - Decodificador de Texto</title>
+	<link rel="stylesheet" href="resert.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+	<a href="https://www.alura.com.br/"><img src="alura.png" class="img"></a>
+	<label class="texto"> Decodificador de texto Online </label>
+	
+	<main class="main">
+		<section class="menu">
+			 <div >
+				 <textarea class="input-text"  cols="40" rows="6" placeholder="Digite seu texto" required></textarea> <!--required = peenchimento obg-->	
+			 </div>
+			 
+			 <div><label class="label"> ► Apenas letras minúsculas e sem acentos.</label></div>
+		     <div id="botoes">
+				 <button type="button" class="btn1" onclick="btncriptografar()">Criptografar</button>
+				 <button type="button" class="btn2" onclick="btndescriptografar()">Descriptografar</button>
+			 </div>
+		</section> 
+		     
+		<section>
+			 <div  class="menu2">
+				 <textarea  id="mensagem" cols="35" rows="12"  >Nenhuma mensagem encontrada</textarea>
+				 <button type="button" class="btn3" onclick="btncopiar()">Copiar</button> 
+				 <!--<button type="button" class="btn3" onclick="btnLimpar()">Limpar</button> -->
+		     </div>
+
+		</section>
+	</main>
+	<center><h4 class="rodape"> Copyright © 2022 Dara Alves. Todos os direitos reservados.</h4></center>
+
+	<script src="script.js"></script>
+
+
+</body>
+</html>
